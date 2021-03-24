@@ -70,12 +70,12 @@
             <version>5.6.2</version>
         </dependency>
         <!-- TESTNG -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.3</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <!-- EXTENT REPORT -->
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
@@ -92,7 +92,8 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.3.0</version>
+            <version>6.9.8</version>
+            <!--<version>7.3.0</version>-->
             <scope>test</scope>
         </dependency>
         <!-- ITEXT: REPORTE -->
@@ -119,7 +120,5 @@
             <artifactId>poi-ooxml</artifactId>
             <version>4.1.2</version>
         </dependency>
-
-
     </dependencies>
 </project>

@@ -22,8 +22,8 @@ public class PropertiesApp {
         APP_URL = propiedades.getProperty("url");
         APP_USER = propiedades.getProperty("nroCuenta");
         APP_PASS = propiedades.getProperty("contraseña");
-        APP_URL_EXCEL = propiedades.getProperty("urlExcel");
-        APP_SHEETNAME_EXCEL = propiedades.getProperty("sheetname");
+        APP_URL_EXCEL = propiedades.getProperty("excelURL");
+        APP_SHEETNAME_EXCEL = propiedades.getProperty("nombreHoja");
         APP_TITULOTC_EXCEL = propiedades.getProperty("tituloTC");
         return propiedades;
     }

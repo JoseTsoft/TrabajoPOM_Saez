@@ -13,7 +13,7 @@ public class CotizacionPage extends BasePage {
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy (xpath = "//h1 [contains(text(),'Cotizaci')]")
+    @FindBy (xpath = "//p [contains(text(),'Total Cotizaci')]")
     public WebElement msjCotizacionOnline;
 
     public boolean confirmacionCotizacion(){
